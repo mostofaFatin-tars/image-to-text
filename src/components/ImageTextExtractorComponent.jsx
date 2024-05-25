@@ -84,7 +84,7 @@ const ImageTextExtractorComponent = () => {
     });
     return processedParts;
   };
-
+console.log(extractedText)
   return (
     <div>
       <input type="file" accept="image/*" onChange={handleFileUpload} />
